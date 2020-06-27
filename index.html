@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+	<div class="main">
+		<div class="int"><input type="text" name="nt" class="form-control" id="Result"></div>
+
+		<div><button class="btn btn-info" id="myId3" onclick="	Clear('')"><b>C</b></button></div>
+
+		<div class btd>
+
+			<button class="btn btn-info" onclick="getNumber('7')"><b>7</b></button>
+			<button class="btn btn-info " onclick="getNumber('8')"><b>8</b></button>
+			<button class="btn btn-info " onclick="getNumber('9')"><b>9</b></button>
+			<button class="btn btn-info" onclick="getNumber('*')"><b>x</b></button>
+		</div>
+		<div class btd>
+			<button class="btn btn-info" onclick="getNumber('4')"><b>4</b></button>
+			<button class="btn btn-info" onclick="getNumber('5')"><b>5</b></button>
+			<button class="btn btn-info" onclick="getNumber('6')"><b>6</b></button>
+			<button class="btn btn-info" onclick="getNumber('-')"><b>-</b></button>
+		</div>
+		<div class btd>
+			<button class="btn btn-info" onclick="getNumber('1')"><b>1</b></button>
+			<button class="btn btn-info" onclick="getNumber('2')"><b>2</b></button>
+			<button class="btn btn-info" onclick="getNumber('3')"><b>3</b></button>
+			<button class="btn btn-info" onclick="getNumber('+')"><b>+</b></button>
+		</div>
+
+		<div class bte>
+			<button class="btn btn-info" id="myId" onclick="getNumber('0')"><b>0</b></button>
+			<button class="btn btn-info" id="myIdtwo" onclick="getResult()"><b>=</b></button>
+
+		</div>
+
+
+
+	</div>
+
+	<script src="app.js"></script>
+
+
+</body>
+
+</html>
